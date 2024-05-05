@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:ital,wght@0,400;1,200&family=Poppins&family=Roboto+Condensed:wght@439&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.menu{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #2c2c2c;
+    padding: 10px 19px;
+}
+.menu div button{
+    margin: 15px 0 25px;
+}
+.menu .color {
+    margin: 0 0 30px;
+}
+.menu input{
+    display: block;
+    margin-bottom: 20px;
+}
+.color {
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all ease-in 0.50s;
+}
+.color:hover{
+    transform: scale(1.2);
+}
+.color:nth-child(1){
+    background: red;
+}
+.color:nth-child(2){
+    background: yellow;
+}
+.color:nth-child(3){
+    background: white;
+}
+.color:nth-child(4){
+    background: black;
+}
+.color:nth-child(5){
+    background: orange;
+}
+.color:nth-child(6){
+    background: blue;
+}
+.color:nth-child(7){
+    background: purple;
+}
+button{
+    border: none;
+    padding: 9px 7px;
+    width: 200px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 0 15px;
+}
+button.download{
+    background: #0f65d4;
+}
+button.clear{
+    background: #03bb56;
+}
+input[type = "color"]{
+    width: 60px;
+    height: 40px;
+}
+.bold-value{
+    color: white;
+    font-size: 20px;
+    margin: 0 15px 0;
+}
+input[type = "range"]{
+    background: #0f65d4;
+    height: 10px;
+    outline: none;
+    display: inline-flex;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 5px;
+    accent-color: white;
+
+}
